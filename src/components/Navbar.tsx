@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-
+import one from "../../myeq.png"
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,7 +32,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`flex items-center justify-between transition-all duration-300 ${isScrolled ? 'h-12' : 'h-20'}`}>
           <div className="flex items-center gap-2">
-            <img src="/myeq.png" alt="MyEQ Logo" className={`transition-all duration-300 ${isScrolled ? 'h-6' : 'h-10'}`} />
+            <img src={one} alt="MyEQ Logo" className={`transition-all duration-300 ${isScrolled ? 'h-6' : 'h-10'}`} />
           </div>
 
           <div className={`hidden md:flex items-center transition-all duration-300 ${isScrolled ? 'gap-4' : 'gap-8'}`}>

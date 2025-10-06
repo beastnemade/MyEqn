@@ -1,5 +1,6 @@
 import { Linkedin, Youtube, Link, Instagram } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import one from "../../myeq.png"
 
 export default function Footer() {
   const { elementRef, isVisible } = useScrollAnimation();
@@ -14,7 +15,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="flex items-center gap-2">
-                <img src="/myeq.png" alt="MyEQ Logo" className="h-10" />
+                <img src={one} alt="MyEQ Logo" className="h-10" />
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">

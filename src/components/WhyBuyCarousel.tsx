@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Users, Badge, Wrench, Target } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-
+import nvi from "../../nvidia-logo.7cf087b8.png"
+import nibm from "../../ibm-logo-white.952f2184.png"
 const carouselItems = [
     {
         icon: Users,
@@ -159,7 +160,7 @@ export default function WhyBuyCarousel() {
                     <div className="flex justify-center items-center gap-6 sm:gap-8 lg:gap-16">
                         <div className="flex-shrink-0">
                             <img
-                                src="nvidia-logo.7cf087b8.png"
+                                src={nvi}
                                 alt="Certificate Partner 1"
                                 className="h-12 sm:h-16 lg:h-20 object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
                             />
@@ -167,7 +168,7 @@ export default function WhyBuyCarousel() {
                         <div className="w-px h-12 sm:h-16 lg:h-20 bg-white/20"></div>
                         <div className="flex-shrink-0">
                             <img
-                                src="ibm-logo-white.952f2184.png"
+                                src={nibm}
                                 alt="Certificate Partner 2"
                                 className="h-12 sm:h-16 lg:h-20 object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
                             />

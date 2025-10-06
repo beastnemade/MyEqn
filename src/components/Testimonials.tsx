@@ -1,7 +1,27 @@
 import { useState, useRef, useEffect } from 'react';
 import { Star, Quote, Play, Pause, Volume2, VolumeX, Maximize } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import vid1 from "../../video-testimonials/Ajinkya.mp4"
+import vid2 from "../../video-testimonials/Haadi-Akhter.mp4"
+import vid3 from "../../video-testimonials/Hardik.mp4"
+import vid4 from "../../video-testimonials/Kerry.mp4"
+import vid5 from "../../video-testimonials/Pritha.mp4"
+import vid6 from "../../video-testimonials/Rashmi.mp4"
+import vid7 from "../../video-testimonials/Supriyam-Mohanty.mp4"
+import vid8 from "../../video-testimonials/Unmona.mp4"
 
+import ss1 from "../../Whatsapp ss/1.png"
+import ss2 from "../../Whatsapp ss/2.png"
+import ss3 from "../../Whatsapp ss/3.png"
+import ss4 from "../../Whatsapp ss/4.png"
+import ss5 from "../../Whatsapp ss/5.png"
+import ss6 from "../../Whatsapp ss/6.png"
+import ss7 from "../../Whatsapp ss/7.png"
+import ss8 from "../../Whatsapp ss/8.png"
+import ss9 from "../../Whatsapp ss/9.png"
+import ss10 from "../../Whatsapp ss/10.png"
+import ss11 from "../../Whatsapp ss/11.png"
+import ss12 from "../../Whatsapp ss/12.png"
 const testimonials = [
   {
     name: 'Michael Chen',
@@ -102,29 +122,29 @@ const testimonials = [
 ];
 
 const videoTestimonials = [
-  'video-testimonials/Ajinkya.mp4',
-  'video-testimonials/Haadi-Akhter.mp4',
-  'video-testimonials/Hardik.mp4',
-  'video-testimonials/Kerry.mp4',
-  'video-testimonials/Pritha.mp4',
-  'video-testimonials/Rashmi.mp4',
-  'video-testimonials/Supriyam-Mohanty.mp4',
-  'video-testimonials/Unmona.mp4',
+  vid1,
+  vid2,
+  vid3,
+  vid4,
+  vid5,
+  vid6,
+  vid7,
+  vid8,
 ];
 
 const whatsappScreenshots = [
-  'Whatsapp ss/1.png',
-  'Whatsapp ss/2.png',
-  'Whatsapp ss/3.png',
-  'Whatsapp ss/4.png',
-  'Whatsapp ss/5.png',
-  'Whatsapp ss/6.png',
-  'Whatsapp ss/7.png',
-  'Whatsapp ss/8.png',
-  'Whatsapp ss/9.png',
-  'Whatsapp ss/10.png',
-  'Whatsapp ss/11.png',
-  'Whatsapp ss/12.png',
+  ss1,
+  ss2,
+  ss3,
+  ss4,
+  ss5,
+  ss6,
+  ss7,
+  ss8,
+  ss9,
+  ss10,
+  ss11,
+  ss12,
 ];
 
 function VideoPlayer({ src, index }: { src: string; index: number }) {

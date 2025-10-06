@@ -1,5 +1,6 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-
+import nvidia from "../../nvidia1.png"
+import ibm from "../../ibm.png"
 export default function ProgramHeader() {
   const { elementRef, isVisible } = useScrollAnimation();
 
@@ -38,12 +39,12 @@ export default function ProgramHeader() {
 
           <div className="flex items-center gap-6">
             <img
-              src="nvidia1.png"
+              src={nvidia}
               alt="NVIDIA Logo"
               className="h-16 sm:h-20 lg:h-24 object-contain"
             />
             <img
-              src="ibm.png"
+              src={ibm}
               alt="IBM Logo"
               className="h-16 sm:h-20 lg:h-24 object-contain"
             />
