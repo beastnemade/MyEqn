@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, Users, Badge, Wrench, Target } from 'lucide-
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import nvi from "../../nvidia-logo.7cf087b8.png"
 import nibm from "../../ibm-logo-white.952f2184.png"
+import Certificate from "../../Certificate.png"
 const carouselItems = [
     {
         icon: Users,
@@ -199,7 +200,7 @@ export default function WhyBuyCarousel() {
                                         height="5086"
                                         decoding="async"
                                         className="object-cover rounded-xl group-hover/card:shadow-2xl group-hover/card:shadow-neo-orange/30 w-full h-auto transition-all duration-300"
-                                        src="Certificate.png"
+                                        src={Certificate}
                                     />
                                 </div>
                             </div>
