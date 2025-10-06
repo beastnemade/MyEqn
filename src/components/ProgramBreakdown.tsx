@@ -1,11 +1,14 @@
 import { Check, Video, Clock } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-
+import py from "../../python.png"
+import AI from "../../AI.png"
+import ML from "../../ML.png"
+import DL from "../../DL.png"
 const programs = [
   {
     title: 'Python Programming',
     subtitle: 'Basic to Advanced',
-    icon: 'python.png',
+    icon: py,
     points: [
       'Python Fundamentals: Solid understanding of core concepts including data types, loops, functions, OOPs, file handling, and exception management.',
       'Tooling & Ecosystem Mastery: Worked with virtual environments, pip/conda, and created custom modules and packages for modular Python development.',
@@ -18,7 +21,7 @@ const programs = [
   {
     title: 'Machine Learning',
     subtitle: 'Basic to Advanced',
-    icon: 'ML.png',
+    icon: ML,
     points: [
       'ML Foundations & Workflow: Covered supervised and unsupervised learning, AI system design, predictive maintenance, and key ML concepts like features, labels, overfitting/underfitting, and end-to-end pipelines on Google Colab.',
       'Data Handling & Visualization: Proficient in NumPy, Pandas for data wrangling and CSV operations; utilized Matplotlib and Seaborn for visualizations including trends, heatmaps, and pairplots.',
@@ -31,7 +34,7 @@ const programs = [
   {
     title: 'Deep Learning',
     subtitle: 'Basic to Advanced',
-    icon: 'DL.png',
+    icon: DL,
     points: [
       'Core ML & Neural Networks: Mastered neural networks fundamentals: supervised learning, activation functions, forward propagation, and gradient descent variants with regularization techniques (L1, L2, dropout).',
       'Hands-On Model Building: Built and trained Artificial Neural Network (ANN) models using TensorFlow and Keras, applying tuning, learning rate schedulers, and model optimization for performance.',
@@ -44,7 +47,7 @@ const programs = [
   {
     title: 'AI & Industrial Use Cases',
     subtitle: 'Basic to Advanced',
-    icon: 'AI.png',
+    icon: AI,
     points: [
       'AI Basics & Ethics: History, types (ANI, AGI, ASI), industry use cases, responsible AI (ethics, fairness, transparency).',
       'Image & Generative AI: OpenCV (face detection, tracking, segmentation), LLMs, prompt engineering.',
